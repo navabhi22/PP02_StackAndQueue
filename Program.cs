@@ -11,6 +11,10 @@ namespace PP02
             linkedListStack.Push(30);
             linkedListStack.Push(56);
             linkedListStack.Display();
+            Console.WriteLine(" ");
+            linkedListStack.Peek();
+            linkedListStack.Pop();
+            linkedListStack.Display();
 
         }
     }
