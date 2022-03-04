@@ -42,5 +42,21 @@ namespace PP02
                 temp = temp.next;
             }
         }
+        internal void Dequeue()
+        {
+            if (this.head == null)
+            {
+                Console.WriteLine("Queue is empty, deletion is not possible");
+                return ;
+            }
+            else
+            {
+                while (this.head != null)
+                {
+                    head.next = null;
+                    head = head.next;
+                }
+            }
+        }
     }
 }
